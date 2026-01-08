@@ -1,0 +1,133 @@
+.home {
+  /* background: blue; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* object-fit: cover; */
+  /* flex-direction: column; */
+  /* text-align: center; */
+  /* padding-top: 20%; */
+  /* padding-bottom: 18%; */
+  font-family: Arial, sans-serif;
+  background-color: #f4ece0;
+}
+
+/* Carousel Styles */
+.slider-item img {
+  width: 100%;
+  height: 500px;
+  /* object-fit: contain; */
+  object-fit: cover;
+}
+
+/* .slider-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.slider-content-left {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.slider-content-right {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.slider-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.slider-content h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.slider-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.shop-now {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #ff4500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shop-now:hover {
+  background-color: #ff6347;
+}
+
+/* Featured Products */
+.featured-products {
+  padding: 20px;
+  text-align: center;
+}
+
+.featured-products h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 10px;
+  /* background-color: #f4ece0; */
+}
+
+.product-card {
+  text-align: center;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  /* object-fit: cover; */
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.product-card p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Ensures the carousel takes the full width of its container */
+.carousel .carousel-slider {
+  width: 100%;
+}
+
+/* Dynamic width based on screen size */
+@media (max-width: 768px) {
+  /* On smaller screens (like mobile devices), make the carousel take full width */
+  .carousel .carousel-slider {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  /* For larger screens, you can limit the width */
+  .carousel .carousel-slider {
+    width: 80%;
+  }
+}

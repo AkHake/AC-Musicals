@@ -1,0 +1,148 @@
+/* General Admin Dashboard Styling */
+.admin-dashboard {
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #f5ba13; /* Accent color for headings */
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  form {
+    /* background-color: #1e1e1e; Darker container */
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  form h2 {
+    color: #f5ba13;
+    margin-bottom: 15px;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    font-size: 14px;
+    /* background-color: #333; */
+    border: 1px solid #555;
+    color: #000000;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    border-color: #f5ba13;
+    outline: none;
+    box-shadow: 0 0 6px rgba(245, 186, 19, 0.5);
+  }
+  
+  form textarea {
+    resize: none;
+    height: 80px;
+  }
+  
+  form button {
+    background-color: #f5ba13;
+    color: #121212;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #e5a806;
+  }
+  
+  form button + button {
+    background-color: #dc3545;
+    margin-top: 5px;
+  }
+  
+  form button + button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Product Table */
+  table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: center;
+    color: #e0e0e0;
+  }
+  
+  th {
+    background-color: #f5ba13;
+    color: #121212;
+    text-transform: uppercase;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #2b2b2b;
+  }
+  
+  tr:hover {
+    background-color: #333;
+  }
+  
+  button {
+    background-color: #f5ba13;
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #e5a806;
+  }
+  
+  button.delete {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    table {
+      font-size: 12px;
+    }
+  
+    form {
+      width: 90%;
+    }
+  }
+  

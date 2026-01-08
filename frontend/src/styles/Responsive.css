@@ -1,0 +1,19 @@
+/* Mobile View */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header nav a {
+    margin: 5px 0;
+  }
+
+  .product-card img {
+    height: 120px;
+  }
+
+  .product-details img {
+    height: 200px;
+  }
+}

@@ -1,0 +1,121 @@
+.copage {
+  padding: 8.5%;
+}
+
+.checkout {
+  padding: 20px;
+  /* padding-bottom: 20%; */
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.checkout form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.checkout form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.checkout button {
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+/* Styles for the payment dropdown */
+.checkout select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  /* background: blueviolet;  */
+}
+
+/* .checkout option{
+  background: blueviolet;
+}  */
+
+/* select {
+  background-color: blueviolet; 
+  color: white; 
+  border: 1px solid #ccc; 
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+} */
+
+select option {
+  background-color: blueviolet;
+  color: white; 
+}
+
+
+.card-details {
+  margin-top: 20px;
+}
+
+.card-details label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card-details input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+
+/* radio button */
+/* fieldset {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+legend {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label input[type="radio"] {
+  margin-right: 10px;
+}
+
+.card-details {
+  margin-top: 20px;
+}
+
+.card-details label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card-details input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+} */
